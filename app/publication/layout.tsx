@@ -6,7 +6,7 @@ export default function PublicationLayout
 }) {
 	return (
 
-			<div className="-full h-screen bg-white">
+			<div className=" h-screen bg-white">
 				{children}
 			</div>
 		

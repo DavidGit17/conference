@@ -42,15 +42,15 @@ export default function RootLayout({
 			</head>
 			<body
 				className={clsx(
-					"min-h-screen bg-background  antialiased",
+					"min-h-screen bg-background   antialiased",
 					inter.className
 				)}
 			>
 		
 				<Providers >
-					<div className="relative flex flex-col h-screen">
+					<div className="relative flex flex-col h-fit">
 						<Navbar />
-						<main className="h-full w-full">
+						<main className="h-fit w-full">
 							{children}
 						</main>
 					</div>
