@@ -35,3 +35,55 @@
     font-family: "open-sans"; 
     src: url("../public//OpenSans-Regular.ttf") format("truetype");  
 } 
+
+.inter-custom-xtrabold
+{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight :800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-custom
+{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight :700;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-custom-sec
+{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight :600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.open-sans-regular-sec {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-regular-thi {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@media screen {
+  
+}
