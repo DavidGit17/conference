@@ -11,11 +11,37 @@
     background-size :cover;
     background-repeat: no-repeat;
 }
+.inter-custom-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight :500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.inter-custom-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight :600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
 
 .inter-custom-bolder {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight :700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+  .inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight :400;
     font-style: normal;
     font-variation-settings:
       "slnt" 0;
