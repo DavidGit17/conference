@@ -38,7 +38,7 @@ export const Navbar = () => {
 					
 					</NextLink>
 				</NavbarBrand>
-				<div className="w-4/5 h-full flex justify-center items-center pl-44 pr-4 ">
+				<div className="w-4/5 h-full flex justify-end items-center pl-44 pr-4 ">
 				<ul className="hidden lg:flex justify-between w-full gap-5" >
 					<li className="text-[15px]  flex flex-col items-center"><Link href="/" className="text-white">Home</Link>  <div className="bg-[#969696] px-5 h-[0.15625em]"></div></li>
 					<li className="text-sm  flex flex-col items-center" ><Link href="/commitee" className="text-white">Commitee </Link>  <div className="bg-[#969696] w-full   h-[0.15625em]"></div></li>
