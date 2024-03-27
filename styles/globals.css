@@ -38,30 +38,6 @@
       "slnt" 0;
   }
 
-  .inter {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight :400;
-    font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
-  }
-
-
-  .open-sans-regular {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-
-  @font-face { 
-    font-family: "open-sans"; 
-    src: url("../public//OpenSans-Regular.ttf") format("truetype");  
-} 
-
 .inter-custom-xtrabold
 {
   font-family: "Inter", sans-serif;
@@ -72,44 +48,16 @@
     "slnt" 0;
 }
 
-.inter-custom
-{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight :700;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
+@font-face { 
+  font-family: "open-sans"; 
+  src: url("../public//OpenSans-Regular.ttf") format("truetype");  
+} 
 
-.inter-custom-sec
-{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight :600;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
-
-.open-sans-regular-sec {
+.open-sans-regular {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
-
-.open-sans-regular-thi {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-@media screen {
-  
 }
