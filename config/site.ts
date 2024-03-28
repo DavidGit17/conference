@@ -51,8 +51,8 @@ export const siteConfig = {
       href: "/commitee",
     },
     {
-      label: "Call for Papers",
-      href: "/Call-for-Papers",
+      label: "Call\ffor\fPapers",
+      href: "/call-for-papers",
     },
     {
       label: "KeyNote",

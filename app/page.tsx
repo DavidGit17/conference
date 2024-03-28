@@ -1,3 +1,4 @@
+"use client"
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code"
@@ -9,11 +10,15 @@ import Image from "next/image";
 import { url } from "inspector";
 import image from "../public/bg.png"
 import mimage from "../styles/logo1.png"
+import Head from "next/head";
 
 
 export default function Home() {
 	return (
 		<>
+		<Head>
+        <link rel="preload" href="../styles/bg-blue.svg" as="image" />
+      </Head>
 			<div className="w-full h-fit bg-white ">
 
 				<div className="init">
@@ -56,6 +61,7 @@ export default function Home() {
 				</div>
 
 			</div>
+	
 			<div className="w-full h-fit px-80 py-36 bg-white">
 				<div className="w-full h-fit flex flex-col  items-center">
 					<h1 className="text-[#1A2C37] font-semibold text-3xl leading-6  ">About University</h1>
