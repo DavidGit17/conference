@@ -34,6 +34,29 @@ export default function Registration() {
 					
 				</div>
 			</div>
+
+			
+			<div className="w-full h-fit flex flex-col bg-white mt-24 flex rounded rounded-3xl">
+				<p className="inter-custom-bolder text-black text-2xl mb-8">Conference Registration Policies:</p>
+				<ol className="list-disc font-open-sans text-black text-md ml-6 leading-7">
+					<li>Each accepted work must include at least one author registration; otherwise, the article will be removed from the Conference Proceedings.</li>
+					<li>Each paid registration covers only one paper; a paper should only have a maximum of 6 authors. However, the multiple submissions with same set of authors will not be encouraged.</li>
+					<li>Each normal registration includes one paper publication in proceedings, a bag, proceedings, program schedule, conference payment receipt, individual certificates to all the authors 
+      and attending all technical sessions.</li>
+					<li>Payment should be made through the below mentioned payment gateways. For bank transfer, please contact the conference email. Payment of fees must accompany all registration files
+      and it must be submitted to conference email. The conference organizer will not accept any bank charges associated with the transfer of money.</li>
+					<li>In order to initiate a refund, Please refer the CANCELLATION & REFUND of Registration Fee</li>
+				</ol>
+			</div>
+
+			<div className="w-full h-fit flex flex-col bg-white mt-24 flex rounded rounded-3xl">
+				<p className="inter-custom-bolder text-black text-2xl mb-8">Cancellation and Refund Policy:</p>
+				
+				<pre className="font-open-sans text-black">Refunds or cancellations are not permitted after registration.{"\n"}
+<span className="font-open-sans font-black">Note:</span> In all the aforementioned cases, no telephonic communications will be considered</pre>
+			</div>
+
+
 		</div>
 	);
 }
