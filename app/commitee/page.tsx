@@ -2,7 +2,7 @@ import { title } from "@/components/primitives";
 
 export default function Commitee() {
   return (
-    <div className="pt-16 pb-16 px-32 h-fit">
+    <div className="pt-16 pb-16 px-32 h-fit bg-white">
       <h1 className="flex justify-center text-black inter-custom-xtrabold text-[25px] pl-2">
         COMMITTEE
       </h1>
