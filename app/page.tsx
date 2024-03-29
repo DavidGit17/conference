@@ -42,7 +42,7 @@ export default function Home() {
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center ">
 							<div className="lg:h-12 lg:w-80 bg-white bg-opacity-50 rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-10 text-xs px-3 py-2">Conference Mode : Hybrid</div>
-							<div className="h-24 lg:w-11/12 w-full text-white bg-black lg:text-medium text-xs flex justify-center">
+							<div className="h-24 lg:w-11/12 w-full text-white bg-black lg:text-base text-xs flex justify-around">
 								<div className="flex flex-col justify-center items-center ">
 									<p className="font-[700] ">Last Date of Registration & </p>
 									<p className="font-[700]">Abstract Submission</p>
