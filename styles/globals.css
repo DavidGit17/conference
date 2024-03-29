@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
 
 .init {
-    background-image: url("Vector.svg");
+    background-image: url("bg-blue.svg");
     height:73%;
     width: 100%;
     background-size :cover;

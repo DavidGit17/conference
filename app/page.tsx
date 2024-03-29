@@ -1,3 +1,4 @@
+"use client"
 import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code"
@@ -9,11 +10,15 @@ import Image from "next/image";
 import { url } from "inspector";
 import image from "../public/bg.png"
 import mimage from "../styles/logo1.png"
+import Head from "next/head";
 
 
 export default function Home() {
 	return (
 		<>
+		<Head>
+        <link rel="preload" href="../styles/bg-blue.svg" as="image" />
+      </Head>
 			<div className="w-full h-fit bg-white ">
 
 				<div className="init">
@@ -56,6 +61,7 @@ export default function Home() {
 				</div>
 
 			</div>
+	
 			<div className="w-full h-fit px-80 py-36 bg-white">
 				<div className="w-full h-fit flex flex-col  items-center">
 					<h1 className="text-[#1A2C37] font-semibold text-3xl leading-6  ">About University</h1>
@@ -65,12 +71,12 @@ export default function Home() {
 
 					<h1 className="text-[#1A2C37] font-semibold text-3xl leading-6 mt-32">About Department</h1>
 					<p className="open-sans-regular mt-16 text-black text-[22px] text-justify flex flex-row justify-start scale-90">
-						Department of Computer Science and Applications was established in the Academic Year 2015. BCA at KLEF(Deemed to be University) University is an undergraduate program with the specializations "Cloud Technology and Information Security", "Artificial Intelligence, "Cyber Security" and "Data Science". These programs are designed with the main objective of imparting strong theoretical and practical foundation, and to provide exposure to latest technologies to bridge the industry gap in IT sector by abiding to social ethics.
+						Department of Computer Science and Applications was established in the Academic Year 2015. BCA at KLEF(Deemed to be University) University is an undergraduate program with the specializations &quot;Cloud Technology and Information Security&quot;, &quot;Artificial Intelligence&quot;, &quot;Cyber Security&quot; and &quot;Data Science&quot;. These programs are designed with the main objective of imparting strong theoretical and practical foundation, and to provide exposure to latest technologies to bridge the industry gap in IT sector by abiding to social ethics.
 					</p>
 
 					<h1 className="text-[#1A2C37] font-semibold text-3xl leading-6 mt-32  ">About Conference</h1>
 					<p className="open-sans-regular mt-16 text-black text-[22px] text-justify flex flex-row justify-start scale-90">
-					The "Emerging Trends in Computer Applications" conference aims to give practitioners, academics, industry experts, and researchers a forum to examine and talk about the most recent developments, A, and emerging trends in the field of computer applications. To promote the development and use of cutting-edge technologies across a range of computer application disciplines, the conference seeks to foster networking, collaboration, and knowledge sharing among attendees. The conference intends to foster a greater knowledge of emerging technologies, approaches, and their potential influence on society, industry, and academia through keynote speeches, paper presentations, panel discussions, and interactive sessions. The conference aspires to stimulate innovative thinking, advance interdisciplinary research, and influence the direction of computer applications by bringing together specialists from many fields.
+					The &quot;Emerging Trends in Computer Applications&quot; conference aims to give practitioners, academics, industry experts, and researchers a forum to examine and talk about the most recent developments, A, and emerging trends in the field of computer applications. To promote the development and use of cutting-edge technologies across a range of computer application disciplines, the conference seeks to foster networking, collaboration, and knowledge sharing among attendees. The conference intends to foster a greater knowledge of emerging technologies, approaches, and their potential influence on society, industry, and academia through keynote speeches, paper presentations, panel discussions, and interactive sessions. The conference aspires to stimulate innovative thinking, advance interdisciplinary research, and influence the direction of computer applications by bringing together specialists from many fields.
 					</p>
 				</div>
 			</div>
