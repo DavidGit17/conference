@@ -10,6 +10,7 @@ import Image from "next/image";
 import { url } from "inspector";
 import image from "../styles/bg-blue-small.jpg"
 import mimage from "../styles/logo1.png"
+
 import Head from "next/head";
 
 
@@ -19,30 +20,30 @@ export default function Home() {
 		<Head>
         <link rel="preload" href="../styles/bg-blue.svg" as="image" />
       </Head>
-			<div className="w-full h-fit bg-white ">
+			<div className="w-full lg:h-fit bg-white ">
 
-				<div className="init">
+				<div className="bg-[url('./bg-blue.svg')]">
 					
 					<div className="flex flex-col h-full justify-between">
-						<div className="flex w-full h-60">
-							<div className="h-full w-3/6 flex flex-col justify-center items-center font-inter">
+						<div className="flex w-full lg:h-60 h-28">
+							<div className="h-full lg:w-3/6 w-full  flex flex-col justify-center lg:items-center lg:pl-0 pl-4 font-inter">
 
 
 
-								<pre className="text-black leading-snug text-left text-[25px] inter-custom-bolder">1<sup>st</sup> National Conference on  {"\n"}
+								<pre className="text-black lg:leading-snug leading-6 text-left lg:text-[25px] text-sm inter-custom-bolder p-0">1<sup>st</sup> National Conference on  {"\n"}
 									Emerging Trends in Computer Applications {"\n"}
 									<span className="text-[#A71E25]">
 										(NCETCA - 2024)</span></pre>
 
 							</div>
-							<div className="h-full w-3/6 flex flex-col justify-center items-center pl-24 pt-10">
-								<Image priority width={360} src={mimage} alt="logo" />
+							<div className="h-full lg:w-3/6 flex flex-col justify-center items-center lg:pl-24 pt-10">
+								<Image priority width={360} src={mimage} alt="logo" className="hidden lg:block" />
 							</div>
 						</div>
-						<div className=" flex flex-col w-full h-64 justify-evenly items-center ">
-							<div className="h-12 w-80 bg-white bg-opacity-50 rounded-lg flex flex-row text-black justify-center items-center font-semibold text-lg px-10">Conference Mode : Hybrid</div>
-							<div className="h-24 w-11/12 bg-black flex justify-around">
-								<div className="flex flex-col justify-center items-center">
+						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center ">
+							<div className="lg:h-12 lg:w-80 bg-white bg-opacity-50 rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-10 text-xs px-3 py-2">Conference Mode : Hybrid</div>
+							<div className="h-24 lg:w-11/12 w-full text-white bg-black lg:text-medium text-xs flex justify-center">
+								<div className="flex flex-col justify-center items-center ">
 									<p className="font-[700] ">Last Date of Registration & </p>
 									<p className="font-[700]">Abstract Submission</p>
 									<p className="font-[700]">5th  April, 2024</p>
@@ -63,7 +64,7 @@ export default function Home() {
 
 			</div>
 	
-			<div className="w-full h-fit px-80 py-36 bg-white">
+			<div className="w-full h-fit lg:px-80 py-36 bg-white">
 				<div className="w-full h-fit flex flex-col  items-center">
 					<h1 className="text-[#1A2C37] font-semibold text-3xl leading-6  ">About University</h1>
 					<p className="open-sans-regular mt-16 text-black text-[22px] text-justify flex flex-row justify-start scale-90">

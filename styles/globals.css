@@ -12,6 +12,15 @@
     background-repeat: no-repeat;
 }
 
+.init-small {
+    background-image: url("bg-blue.svg");
+    width: 100%;
+    height: 50%;
+    background-size :contain;
+    background-repeat: no-repeat;
+
+}
+
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -102,3 +111,4 @@
 .mitta button {
   width : 100%;
 }
+
