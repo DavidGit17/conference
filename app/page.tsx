@@ -8,7 +8,7 @@ import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import Image from "next/image";
 import { url } from "inspector";
-import image from "../public/bg.png"
+import image from "../styles/bg-blue-small.jpg"
 import mimage from "../styles/logo1.png"
 import Head from "next/head";
 
