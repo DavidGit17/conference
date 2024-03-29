@@ -22,6 +22,7 @@ export default function Home() {
 			<div className="w-full h-fit bg-white ">
 
 				<div className="init">
+					
 					<div className="flex flex-col h-full justify-between">
 						<div className="flex w-full h-60">
 							<div className="h-full w-3/6 flex flex-col justify-center items-center font-inter">

@@ -99,3 +99,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+.mitta button {
+  width : 100%;
+}

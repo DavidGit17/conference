@@ -53,14 +53,17 @@ export const Navbar = () => {
 
 
 			<NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-				<NavbarMenuToggle className="flex md:flex"  />
+				<NavbarMenuToggle className="flex md:flex text-white "  />
 			</NavbarContent>
 
 			<NavbarMenu  className="bg-black">
-				<div className="mx-4 mt-2 flex flex-col gap-2">
+				<div className="mx-4 mt-2 flex flex-col gap-6">
 					{siteConfig.navMenuItems.map((item, index) => (
-						<NavbarMenuItem key={`${item}-${index}`}  className="flex justify-center items-center">
-							<NavbarMenuToggle onClick={()=>{router.push(item.href)}} className="mt-4" icon={item.label}></NavbarMenuToggle>
+						<NavbarMenuItem key={`${item}-${index}`}  className="flex justify-center items-center ">
+							<div className="flex justify-center items-center w-full h-fit mitta">
+							<NavbarMenuToggle onClick={()=>{router.push(item.href)}} className=" py-2 text-white "  icon={item.label}></NavbarMenuToggle>
+							</div>
+							
 						</NavbarMenuItem>
 					))}
 				</div>
