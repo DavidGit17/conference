@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
 			<div className="w-full lg:h-fit bg-white ">
 
-				<div className="bg-[url('./bg-blue.svg')]">
+				<div className="bg-[url('./bg-blue.svg')] bg-cover">
 					
 					<div className="flex flex-col h-full justify-between">
 						<div className="flex w-full lg:h-60 h-28">
@@ -30,7 +30,7 @@ export default function Home() {
 
 
 
-								<pre className="text-black lg:leading-snug leading-6 text-left lg:text-[25px] text-sm inter-custom-bolder p-0">1<sup>st</sup> National Conference on  {"\n"}
+								<pre className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] text-sm inter-custom-bolder p-0">1<sup>st</sup> National Conference on  {"\n"}
 									Emerging Trends in Computer Applications {"\n"}
 									<span className="text-[#A71E25]">
 										(NCETCA - 2024)</span></pre>
@@ -41,8 +41,8 @@ export default function Home() {
 							</div>
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center ">
-							<div className="lg:h-12 lg:w-80 bg-white bg-opacity-50 rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-10 text-xs px-3 py-2">Conference Mode : Hybrid</div>
-							<div className="h-24 lg:w-11/12 w-full text-white bg-black lg:text-base text-xs flex justify-around">
+							<div className="lg:h-12 lg:w-80 bg-white  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-10 text-xs px-3 py-2">Conference Mode : Hybrid</div>
+							<div className="h-24 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-evenly">
 								<div className="flex flex-col justify-center items-center ">
 									<p className="font-[700] ">Last Date of Registration & </p>
 									<p className="font-[700]">Abstract Submission</p>
@@ -64,20 +64,20 @@ export default function Home() {
 
 			</div>
 	
-			<div className="w-full h-fit lg:px-80 py-36 bg-white">
+			<div className="w-full h-fit lg:px-80 lg:py-36 py-16 bg-white">
 				<div className="w-full h-fit flex flex-col  items-center">
-					<h1 className="text-[#1A2C37] font-semibold text-3xl leading-6  ">About University</h1>
-					<p className="open-sans-regular mt-16 text-black text-[22px] text-justify flex flex-row justify-start scale-90">
+					<h1 className="text-[#1A2C37] font-semibold lg:text-3xl leading-6 text-xl ">About University</h1>
+					<p className="open-sans-regular lg:mt-16 text-black lg:text-[22px] text-justify text-lg flex flex-row justify-start scale-90">
 						KLEF Deemed to be university was established in 1980-81, as KL College of {"\n"} Engineering, which was upgraded to KL College of Engineering Autonomous in {"\n"} 2006 by UGC, and was declared as a Deemed to be University in 2009 by UGC,{"\n"} MHRD Govt.of India. In 2012 as a Deemed to be University the institution was {"\n"} accredited by NAAC with A Grade and later in 2018, was re-accredited by NAAC {"\n"} with A++ grade. In 2019 UGC, MHRD declared this intuition as Category I {"\n"} Institution. The institutes remains indebted to leadership of our late co-founder{"\n"} Er. Koneru Lakshmaiah, and our Founder Er. Koneru Satyanarayana, both of whose {"\n"} vision has helped in creating this abode of learning, which has emerged as one of {"\n"} the elite institutes of the nation.
 					</p>
 
-					<h1 className="text-[#1A2C37] font-semibold text-3xl leading-6 mt-32">About Department</h1>
-					<p className="open-sans-regular mt-16 text-black text-[22px] text-justify flex flex-row justify-start scale-90">
+					<h1 className="text-[#1A2C37] font-semibold lg:text-3xl text-xl leading-6 lg:mt-32 mt-14">About Department</h1>
+					<p className="open-sans-regular lg:mt-16 mt-3 text-black lg:text-[22px] text-lg text-justify flex flex-row justify-start scale-90">
 						Department of Computer Science and Applications was established in the Academic Year 2015. BCA at KLEF(Deemed to be University) University is an undergraduate program with the specializations &quot;Cloud Technology and Information Security&quot;, &quot;Artificial Intelligence&quot;, &quot;Cyber Security&quot; and &quot;Data Science&quot;. These programs are designed with the main objective of imparting strong theoretical and practical foundation, and to provide exposure to latest technologies to bridge the industry gap in IT sector by abiding to social ethics.
 					</p>
 
-					<h1 className="text-[#1A2C37] font-semibold text-3xl leading-6 mt-32  ">About Conference</h1>
-					<p className="open-sans-regular mt-16 text-black text-[22px] text-justify flex flex-row justify-start scale-90">
+					<h1 className="text-[#1A2C37] font-semibold lg:text-3xl text-xl leading-6 lg:mt-32 mt-14 ">About Conference</h1>
+					<p className="open-sans-regular lg:mt-16 mt-3 text-black lg:text-[22px] text-lg text-justify flex flex-row justify-start scale-90">
 					The &quot;Emerging Trends in Computer Applications&quot; conference aims to give practitioners, academics, industry experts, and researchers a forum to examine and talk about the most recent developments, A, and emerging trends in the field of computer applications. To promote the development and use of cutting-edge technologies across a range of computer application disciplines, the conference seeks to foster networking, collaboration, and knowledge sharing among attendees. The conference intends to foster a greater knowledge of emerging technologies, approaches, and their potential influence on society, industry, and academia through keynote speeches, paper presentations, panel discussions, and interactive sessions. The conference aspires to stimulate innovative thinking, advance interdisciplinary research, and influence the direction of computer applications by bringing together specialists from many fields.
 					</p>
 				</div>
