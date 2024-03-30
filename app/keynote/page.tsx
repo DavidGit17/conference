@@ -18,8 +18,8 @@ export default function Keynote() {
               priority
             />
           </div>
-          <div className="h-4/6 w-full ">
-            <div className="h-2/6 w-full lg:mt-4 mt-7 flex flex-col items-center justify-center text-black">
+          <div className="h-4/6 w-full lg:mt-14">
+            <div className="h-2/6 lg:mb-7 w-full lg:mt-4 mt-7 flex flex-col items-center justify-center text-black">
               <p className="lg:text-xl text-lg">
                 <b>Prof. P Suresh Varma</b>
               </p>
