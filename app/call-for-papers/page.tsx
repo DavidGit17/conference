@@ -1,6 +1,6 @@
 export default function CallForPapers() {
   return (
-    <div className="pt-16 pb-16 px-14 text-black bg-[#E7E7E7]">
+    <div className="pt-16 pb-16 px-14 text-black ">
       <h1 className="flex flex-row justify-center items-center text-black inter-custom-xtrabold text-[25px]">
         CALL FOR PAPERS
       </h1>

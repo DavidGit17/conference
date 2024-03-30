@@ -26,6 +26,7 @@ export default function Commitee() {
             <span className="open-sans-light"> Vice-President, KLEF</span>
           </p>
         </div>
+        <br className="lg:hidden"/>
         <div className="patron bg-[#E7E7E7] rounded rounded-lg h-fit flex flex-col items-center lg:w-[49%] w-full  lg:py-[3.5rem] py-7 lg:px-0 px-5">
           <p className="text-black text-[22px] inter-custom-bolder ">PATRON</p>
           <p className="text-black open-sans-bold pt-5 flex-row   text-center" >
@@ -59,10 +60,10 @@ export default function Commitee() {
             </p>
           </div>
         </div>
-
+        <br className="lg:hidden"/>
         <div className="bg-[#E7E7E7] rounded rounded-lg lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5">
           <p className="text-[#A71E25] inter-custom-bolder  text-xl">
-            CONFERENCE <span className="text-black">CHAIR</span>
+            CONFERENCE <span className="text-black">CO-CHAIR</span>
           </p>
           <div className="flex flex-col items-center pt-6">
             <p className="text-black open-sans-boldl">Dr.G.Krishna Mohan</p>
@@ -71,10 +72,10 @@ export default function Commitee() {
             </p>
           </div>
         </div>
-
+        <br className="lg:hidden"/>
         <div className="bg-[#E7E7E7] rounded rounded-lg lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5 ">
-          <p className="text-[#A71E25] inter-custom-bolder  text-xl">
-            CONFERENCE <span className="text-black">CHAIR</span>
+          <p className="text-[#A71E25] inter-custom-bolder text-center  text-xl">
+            CONFERENCE <span className="text-black">CONVENER</span>
           </p>
           <div className="flex flex-col items-center pt-6">
             <p className="text-black open-sans-boldl">Dr.K. Subramanyam</p>
@@ -197,6 +198,7 @@ export default function Commitee() {
             </p>
           </div>
         </div>
+        <br className="lg:hidden"/>
 
         <div className=" Technical flex flex-col bg-[#E7E7E7] rounded rounded-lg items-center py-10 px-10 ">
           <h1 className="text-[#A71E25] inter-custom-bolder text-xl text-center">
