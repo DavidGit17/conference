@@ -25,7 +25,7 @@ export default function Keynote() {
               </p>
               <p className="font-semibold ">M.Tech(CSE), Ph.D</p>
               <p className="font-semibold text-center">
-                Dean Faculty of Engineering and Technology{" "}
+                Dean Faculty of Engineering and Technology
               </p>
               <p className="font-semibold">Aadikavi Nannaya University</p>
             </div>
