@@ -6,13 +6,13 @@ export default function Venue() {
       <h1 className="flex flex-row justify-center items-center text-black text-[22px] inter-custom-bold">
         VENUE
       </h1>
-      <div className="w-full lg:h-96 mt-12 lg:flex flex-col ">
+      <div className="w-full lg:h-96 mt-12 flex lg:flex-row flex-col ">
         <div className=" lg:w-3/6 h-full flex justify-center items-center">
           <pre className="text-black bg-[#E7E7E780] p-6 inter w-fit text-xl lg:inline-block hidden ">
             Department of Computer Science & Applications,{"\n"}
             SDC block, 5th floor, KLEF, Vaddeswaram, 522302
           </pre>
-          <p className="text-black bg-[#E7E7E780] p-4 inter w-fit  ">
+          <p className="text-black bg-[#E7E7E780] p-4 inter w-fit lg:hidden inline-block ">
             Department of Computer Science & Applications,{"\n"}
             SDC block, 5th floor, KLEF, Vaddeswaram, 522302
           </p>

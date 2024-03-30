@@ -2,126 +2,126 @@ import { title } from "@/components/primitives";
 
 export default function Commitee() {
   return (
-    <div className="pt-16 pb-16 px-32 h-fit bg-white">
+    <div className="pt-16 pb-16 lg:px-32 px-5 h-fit bg-white">
       <h1 className=" comittee flex justify-center text-black inter-custom-xtrabold text-[25px] pl-2">
         COMMITTEE
       </h1>
-      <div className="flex justify-between pt-20">
-        <div className="chiefpatron bg-[#E7E7E7] h-fit flex flex-col items-center w-[49%] py-[3.5rem]">
-          <p className="text-[#A71E25] text-[22px] inter-custom-bolder ">
+      <div className="lg:flex justify-between pt-20">
+        <div className="chiefpatron bg-[#E7E7E7] h-fit flex flex-col items-center  lg:w-[49%] w-full lg:py-[3.5rem] py-7 lg:px-0 px-5">
+          <p className="text-[#A71E25] text-[22px] inter-custom-bolder  ">
             CHIEF <span className="text-black">PATRON</span>
           </p>
-          <p className="text-black open-sans-bold pt-5">
+          <p className="text-black open-sans-bold pt-5 flex-row   text-center">
             Er. K. Satyanarayana,
             <span className="open-sans-light"> President, KLEF</span>
           </p>
-          <p className="text-black open-sans-bold pt-5">
+          <p className="text-black open-sans-bold pt-5 flex-row   text-center">
             Smt. K. Siva Kanchana Latha,
             <span className="open-sans-light"> Secretary, KLEF</span>
           </p>
-          <p className="text-black open-sans-bold pt-5">
+          <p className="text-black open-sans-bold pt-5 flex-row   text-center">
             Er. K. L. Havish,
             <span className="open-sans-light"> Vice-President, KLEF</span>
           </p>
-          <p className="text-black open-sans-bold pt-5">
+          <p className="text-black open-sans-bold pt-5 flex-row   text-center">
             Er. K. Raja Harin,
             <span className="open-sans-light"> Vice-President, KLEF</span>
           </p>
         </div>
-        <div className="patron bg-[#E7E7E7] h-fit flex flex-col items-center w-[49%] py-[3.5rem]">
+        <div className="patron bg-[#E7E7E7] h-fit flex flex-col items-center lg:w-[49%] w-full  lg:py-[3.5rem] py-7 lg:px-0 px-5">
           <p className="text-black text-[22px] inter-custom-bolder ">PATRON</p>
-          <p className="text-black open-sans-bold pt-5">
+          <p className="text-black open-sans-bold pt-5 flex-row   text-center" >
             Dr. K. S. Jagannatha Rao,
             <span className="open-sans-light"> Pro Chancellor, KLEF</span>
           </p>
-          <p className="text-black open-sans-bold pt-5">
+          <p className="text-black open-sans-bold pt-5 flex-row   text-center">
             Dr. A. V. S. Prasad,
             <span className="open-sans-light"> Pro Vice Chancellor, KLEF</span>
           </p>
-          <p className="text-black open-sans-bold pt-5">
+          <p className="text-black open-sans-bold pt-5 flex-row   text-center">
             Dr. N. Venkataram,
             <span className="open-sans-light"> Pro Vice Chancellor, KLEF</span>
           </p>
-          <p className="text-black open-sans-bold pt-5">
+          <p className="text-black open-sans-bold pt-5 flex-row   text-center">
             Dr. K. Subba Rao,
             <span className="open-sans-light"> Registrar, KLEF</span>
           </p>
         </div>
       </div>
 
-      <div className=" conference flex justify-between mt-10">
-        <div className="bg-[#E7E7E7] w-[19rem] flex flex-col items-center py-10 ">
-          <p className="text-[#A71E25] inter-custom-bolder text-xl">
+      <div className=" xl:lg:md:flex-row lg:flex  flex-col justify-between mt-10">
+        <div className="bg-[#E7E7E7] lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5  ">
+          <p className="text-[#A71E25] inter-custom-bolder text-xl ">
             CONFERENCE <span className="text-black">CHAIR</span>
           </p>
-          <div className="flex flex-col items-center pt-6">
+          <div className="flex flex-col items-center pt-6 ">
             <p className="text-black open-sans-boldl">Dr.K. Subramanyam</p>
-            <p className="text-black open-sans-light">
+            <p className="text-black open-sans-light text-center">
               Principal, College of Sciences, KLEF
             </p>
           </div>
         </div>
 
-        <div className="bg-[#E7E7E7] w-[19rem] flex flex-col items-center py-10">
+        <div className="bg-[#E7E7E7] lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5">
           <p className="text-[#A71E25] inter-custom-bolder  text-xl">
             CONFERENCE <span className="text-black">CHAIR</span>
           </p>
           <div className="flex flex-col items-center pt-6">
             <p className="text-black open-sans-boldl">Dr.G.Krishna Mohan</p>
-            <p className="text-black open-sans-light">
+            <p className="text-black open-sans-light text-center">
               Principal, College of Sciences, KLEF
             </p>
           </div>
         </div>
 
-        <div className="bg-[#E7E7E7] w-[19rem] flex flex-col items-center py-10">
+        <div className="bg-[#E7E7E7] lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5 ">
           <p className="text-[#A71E25] inter-custom-bolder  text-xl">
             CONFERENCE <span className="text-black">CHAIR</span>
           </p>
           <div className="flex flex-col items-center pt-6">
             <p className="text-black open-sans-boldl">Dr.K. Subramanyam</p>
-            <p className="text-black open-sans-light">
+            <p className="text-black open-sans-light text-center">
               Principal, College of Sciences, KLEF
             </p>
           </div>
         </div>
       </div>
 
-      <div className="bg-[#E7E7E7] h-fit mt-10 px-10 py-10">
+      <div className="bg-[#E7E7E7] h-fit mt-10 lg:px-10 px-5 py-10 lg:flex flex-col">
         <div className="flex justify-center">
           <p className="text-[#A71E25] inter-custom-bolder text-xl pb-5">
             STEERING <span className="text-black">COMMITTEE</span>
           </p>
         </div>
-        <div className="flex justify-between">
-          <p className="text-black open-sans-bold text-center">
+        <div className="flex lg:flex-row flex-col justify-between">
+          <p className="text-black open-sans-bold text-center lg:mb-0 mb-4">
             Mr. J A Jevin Assistant <br />
-            <span className="open-sans-regular">
+            <span className="open-sans-regular text-center">
               Professor, Dept. of CSA, KLEF
             </span>
           </p>
-          <p className="text-black open-sans-bold text-center pl-12">
+          <p className="text-black open-sans-bold text-center lg:mb-0 mb-4 lg:pl-12">
             Dr. Rama Krishna Yellapragada <br />
-            <span className="open-sans-regular">
+            <span className="open-sans-regular text-center">
               Assistant Professor, Dept. of CSA, KLEF
             </span>
           </p>
           <p className="text-black open-sans-bold text-center">
             Dr.B. Krishna Prasad <br />
-            <span className="open-sans-regular">
+            <span className="open-sans-regular text-center">
               Assistant Professor, Dept. of CSA, KLEF
             </span>
           </p>
         </div>
       </div>
 
-      <div className=" org-tech flex flex-row justify-between py-10">
-        <div className="flex flex-col bg-[#E7E7E7] items-center py-10 px-10">
-          <h1 className="text-[#A71E25] inter-custom-bolder text-xl ">
+      <div className="flex org-tech  lg:flex-row flex-col justify-between py-10">
+        <div className=" flex-col justify-center bg-[#E7E7E7] items-center py-10 px-10">
+          <h1 className="text-[#A71E25] inter-custom-bolder text-xl text-center ">
             ORGANIZING <span className="text-black">COMMITTEE</span>
           </h1>
-          <div className="text-black text-center px-5 py-10">
-            <p className="inter-custom-bolder py-[0.22rem]">
+          <div className="text-black text-center lg:px-5 py-10">
+            <p className="inter-custom-bolder py-[0.22rem] text-center">
               Dr. G. Venkateswarlu,
               <span className="font-[400]">
                 Assistant Professor, Dept. of CSA, KLEF
@@ -152,7 +152,7 @@ export default function Commitee() {
               </span>
             </p>
           </div>
-          <h1 className="text-[#A71E25] inter-custom-bolder text-xl ">
+          <h1 className="text-[#A71E25] inter-custom-bolder text-xl text-center ">
             REGISTRATION <span className="text-black">COMMITTEE</span>
           </h1>
           <p className="text-black py-10 text-center">
@@ -181,7 +181,7 @@ export default function Commitee() {
               </span>
             </p>
           </p>
-          <h1 className="Publicity text-[#A71E25] inter-custom-bolder text-xl ">
+          <h1 className="Publicity text-[#A71E25] inter-custom-bolder text-xl text-center lg:mb-0 mb-5 ">
             PUBLICITY <span className="text-black">COMMITTEE</span>
           </h1>
           <p className="text-black text-center">
@@ -201,7 +201,7 @@ export default function Commitee() {
         </div>
 
         <div className=" Technical flex flex-col bg-[#E7E7E7] items-center py-10 px-10 ">
-          <h1 className="text-[#A71E25] inter-custom-bolder text-xl">
+          <h1 className="text-[#A71E25] inter-custom-bolder text-xl text-center">
             TECHNICAL PROGRAM <span className="text-black">COMMITTEE</span>
           </h1>
           <p className="text-black text-center py-10">
@@ -285,7 +285,7 @@ export default function Commitee() {
         </div>
       </div>
 
-      <div className="website bg-[#E7E7E7] h-fit flex flex-col justify-center items-center text-center py-10">
+      <div className="website bg-[#E7E7E7] h-fit flex flex-col justify-center items-center text-center py-10 lg:px-0 px-7">
         <div>
           <h1 className="text-[#A71E25] text-xl inter-custom-bolder pb-5">
             WEBSITE <span className="text-black ">COMMITTEE</span>
