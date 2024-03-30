@@ -1,10 +1,11 @@
 import Image from "next/image";
 import qr from "../../styles/Qr_Code.svg"
+import Link from "next/link";
 
 
 export default function Registration() {
 	return (
-		<div className="pt-16 pb-16 px-11 h-fit bg-white">
+		<div className="pt-16 pb-16 lg:px-11 px-6 h-fit bg-white">
 			<h1 className="flex flex-row justify-center items-center text-black text-[25px] inter-custom-xtrabold">REGISTRATION</h1>
 
 			<div className="w-full h-fit flex flex-row  bg-[#D9D9D99E] mt-14  flex flex-col rounded rounded-3xl border-b-3 border-[#c4c4c4] shadow-black lg:block hidden">
@@ -45,14 +46,22 @@ export default function Registration() {
 				</li>
 			</ol>
 
-			<div className="w-full h-fit flex flex-row  bg-white mt-24 flex rounded rounded-3xl border-1 border-black shadow-black">
-				<div className="w-3/6 h-full flex flex-col justify-center items-center  p-8"><p className="px-8 inter rounded rounded-xlp-1 w-fit bg-[#E0E0E0] text-black">Qr Code</p>
+			<div className="w-full h-fit flex flex-col bg-white mt-24 rounded rounded-3xl border-1 border-black shadow-black">
+				<div className="w-full h-3/6 flex flex-col justify-center items-center  p-8"><p className="px-8 inter rounded rounded-xlp-1 w-fit bg-[#E0E0E0] text-black mb-7">Qr Code</p>
 
 					<Image src={qr} alt="qr code" width={200} height={200} />
 				</div>
-				<div className="w-3/6 h-full ">
-
-
+				<div className="w-full h-3/6 flex flex-col justify-around items-center ">
+				<p>Registration Form Link</p>
+				<br/>
+				<p className="lgtext-base text-sm"><Link  className="underline" href={"https://newerp.kluniversity.in/index.php"}>https://newerp.kluniversity.in/index.php</Link></p>
+				<br/>
+				<ul className="list-disc lg:pl-0 pl-8">
+					<li>Do payment using above QR code and take screenshot of your payment</li>
+					<br className="lg:hidden "/>
+					<li>Now, Using above link fill the form and upload the screenshot and submit it</li>
+				</ul>
+				<br/>
 				</div>
 			</div>
 
