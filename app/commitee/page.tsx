@@ -155,7 +155,7 @@ export default function Commitee() {
           <h1 className="text-[#A71E25] inter-custom-bolder text-xl text-center ">
             REGISTRATION <span className="text-black">COMMITTEE</span>
           </h1>
-          <p className="text-black py-10 text-center">
+          <div className="text-black py-10 text-center">
             <p className="inter-custom-bolder py-[0.22rem]">
               Mr. Zulfikar Ali Ansari,
               <span className="font-[400]">
@@ -180,11 +180,11 @@ export default function Commitee() {
                 BCA 3nd Year, Dept. of CSA, KLEF
               </span>
             </p>
-          </p>
+          </div>
           <h1 className="Publicity text-[#A71E25] inter-custom-bolder text-xl text-center lg:mb-0 mb-5 ">
             PUBLICITY <span className="text-black">COMMITTEE</span>
           </h1>
-          <p className="text-black text-center">
+          <div className="text-black text-center">
             <p className="inter-custom-bolder py-[0.22rem]">
               Mr. B. Krishna,
               <span className="font-[400]">
@@ -197,14 +197,14 @@ export default function Commitee() {
                 Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
-          </p>
+          </div>
         </div>
 
         <div className=" Technical flex flex-col bg-[#E7E7E7] rounded rounded-lg items-center py-10 px-10 ">
           <h1 className="text-[#A71E25] inter-custom-bolder text-xl text-center">
             TECHNICAL PROGRAM <span className="text-black">COMMITTEE</span>
           </h1>
-          <p className="text-black text-center py-10">
+          <div className="text-black text-center py-10">
             <p className="py-[0.4rem] inter-custom-bolder">
               Dr. K.Kiran Kumar,
               <span className="font-[400]">Professor, Dept. of CSA, KLEF</span>
@@ -281,7 +281,7 @@ export default function Commitee() {
                 Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
-          </p>
+          </div>
         </div>
       </div>
 

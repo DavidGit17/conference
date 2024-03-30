@@ -1,5 +1,3 @@
-import { title } from "@/components/primitives";
-import Link from "next/link";
 import Image from "next/image";
 import qr from "../../styles/Qr_Code.svg"
 
@@ -7,7 +5,7 @@ import qr from "../../styles/Qr_Code.svg"
 export default function Registration() {
 	return (
 		<div className="pt-16 pb-16 px-11 h-fit bg-white">
-			<h1 className="flex flex-row justify-center items-center text-black text-[22px] inter-custom-bold">REGISTRATION</h1>
+			<h1 className="flex flex-row justify-center items-center text-black text-[25px] inter-custom-xtrabold">REGISTRATION</h1>
 
 			<div className="w-full h-fit flex flex-row  bg-[#D9D9D99E] mt-14  flex flex-col rounded rounded-3xl border-b-3 border-[#c4c4c4] shadow-black lg:block hidden">
 				<div className="h-4/6 w-full  text-black text-xl flex flex-row justify-between p-8 items-center">
@@ -77,7 +75,7 @@ export default function Registration() {
 
 				<pre className="font-open-sans text-black lg:block hidden">Refunds or cancellations are not permitted after registration.{"\n"}
 					<span className="font-open-sans font-black">Note:</span> In all the aforementioned cases, no telephonic communications will be considered</pre>
-					<p className="font-open-sans text-black ">Refunds or cancellations are not permitted after registration.{"\n"}<br/><br/>
+					<p className="font-open-sans text-black lg:hidden  ">Refunds or cancellations are not permitted after registration.{"\n"}<br/><br/>
 					<span className="font-open-sans font-black">Note:</span> In all the aforementioned cases, no telephonic communications will be considered</p>
 			</div>
 

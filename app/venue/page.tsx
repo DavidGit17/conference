@@ -3,7 +3,7 @@ import collegeim  from "../../styles/collegeim.svg"
 export default function Venue() {
   return (
     <div className="pt-16 pb-16 lg:px-11 px-4 h-fit bg-white">
-      <h1 className="flex flex-row justify-center items-center text-black text-[22px] inter-custom-bold">
+      <h1 className="flex flex-row justify-center items-center text-black text-[25px] inter-custom-xtrabold">
         VENUE
       </h1>
       <div className="w-full lg:h-96 mt-12 flex lg:flex-row flex-col ">

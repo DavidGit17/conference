@@ -5,11 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
 
 .init {
-    background-image: url("bg-blue.svg");
+    background-image: url("bg-small.png");
+    background-color: #121b5e;
     height:73%;
     width: 100%;
     background-size :cover;
     background-repeat: no-repeat;
+}
+.initLoaded {
+  background-image: url("bg-blue.svg");
+  background-color: #121b5e;
+  height:73%;
+  width: 100%;
+  background-size :cover;
+  background-repeat: no-repeat;
 }
 
 .init-small {

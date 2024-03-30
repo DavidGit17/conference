@@ -1,11 +1,10 @@
-import { title } from "@/components/primitives";
 import Image from "next/image";
 import keynote1 from "styles/keynote1.png";
 import keynote2 from "styles/keynote2.png.jpg";
 export default function Keynote() {
   return (
     <div className="pt-12 pb-16 lg:px-32 px-3 h-fit bg-white">
-      <h1 className="text-black inter-custom-bolder text-[22px] flex justify-center">
+      <h1 className="text-black inter-custom-xtrabold text-[25px] flex justify-center">
         KEYNOTE SPEAKERS
       </h1>
 

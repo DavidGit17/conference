@@ -1,29 +1,29 @@
 "use client"
-import { Link } from "@nextui-org/link";
-import { Snippet } from "@nextui-org/snippet";
-import { Code } from "@nextui-org/code"
-import { button as buttonStyles } from "@nextui-org/theme";
-import { siteConfig } from "@/config/site";
-import { title, subtitle } from "@/components/primitives";
-import { GithubIcon } from "@/components/icons";
-import Image from "next/image";
-import { url } from "inspector";
-import image from "../styles/bg-blue-small.jpg"
-import mimage from "../styles/logo1.png"
 
+
+import Image from "next/image";
+import mimage from "../styles/logo.png"
+import bigimage from "../styles/bg-blue.svg"
+import { useEffect, useState } from "react";
 import Head from "next/head";
 
 
 export default function Home() {
+	const [imageLoaded, setImageLoaded] = useState<boolean>(false)
+	
+
 	return (
 		<>
 		<Head>
         <link rel="preload" href="../styles/bg-blue.svg" as="image" />
 		<title>NCETCA</title>
+		
       </Head>
+	  <Image  onLoad={()=>{setImageLoaded(true) , console.log(imageLoaded)}} onError={()=>{setImageLoaded(false)}} src={bigimage} alt="logo" height={1} className={imageLoaded ? "hidden" : "bg-gray-500 animate-pulse "} />
 			<div className="w-full lg:h-fit bg-white ">
+				
 
-				<div className="bg-[url('./bg-blue.svg')] bg-cover">
+				<div className={imageLoaded == true ? "bg-[url('./bg-blue.svg')]": "init"}>
 					
 					<div className="flex flex-col h-full justify-between">
 						<div className="flex w-full lg:h-60 h-28">
@@ -38,12 +38,12 @@ export default function Home() {
 
 							</div>
 							<div className="h-full lg:w-3/6 flex flex-col justify-center items-center lg:pl-24 pt-10">
-								<Image priority width={360} src={mimage} alt="logo" className="hidden lg:block" />
+								<Image priority width={360} src={mimage} alt="logo" className="hidden lg:block scale-85" />
 							</div>
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">
 							<div className="lg:h-12 lg:w-80 bg-white  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-10 text-xs px-3 py-2">Conference Mode : Hybrid</div>
-							<div className="h-24 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-evenly">
+							<div className="lg:h-24 h-16 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-evenly">
 								<div className="flex flex-col justify-center items-center ">
 									<p className="font-[700] ">Last Date of Registration & </p>
 									<p className="font-[700]">Abstract Submission</p>
@@ -83,6 +83,8 @@ export default function Home() {
 					</p>
 				</div>
 			</div>
+
+			
 		</>
 	);
 }

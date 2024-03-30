@@ -1,11 +1,10 @@
-import { title } from "@/components/primitives";
 import Link from "next/link";
 import "../../styles/globals.css"
 
 export default function Submission() {
 	return (
 		<div  className="pt-16 pb-16 lg:px-11 px-5 h-fit bg-white">
-		<h1 className="flex flex-row justify-center items-center text-black text-[22px] inter-custom-bold">SUBMISSION</h1>
+		<h1 className="flex flex-row justify-center items-center text-black text-[25px] inter-custom-xtrabold">SUBMISSION</h1>
 			<div className="w-full h-fit flex flex-row  bg-[#D9D9D99E] mt-14 lg:p-8 p-6 flex flex-col rounded rounded-3xl border-b-3 border-[#c4c4c4] shadow-black">
 				<h1 className="text-black inter-custom-bolder text-xl">PAPER <span className="text-[#A71E25]">TEMPLATE</span></h1>
 				<p className="inter capitalize text-black mt-3 lg:text-[15px] text-sm lg:text-justify text-left leading-7">PLEASE DOWNLOAD THE FOLLOWING PAPER TEMPLATE FOR YOUR MANUSCRIPT .</p>
@@ -46,8 +45,9 @@ export default function Submission() {
 				<h1 className="text-black inter-custom-bolder text-xl">FINAL SUBMISSION <span className="text-[rgb(167,30,37)]">PROCEDURE</span></h1>
 				
 				<ol className="list-decimal text-black leading-9 lg:text-lg ml-5 pt-4 inter">
-					<li><pre className="font-open-sans text-black text-lg mt-5 text-justify leading-8 lg:inline-block hidden">Pay for conference registration here:<b className="inter-custom-bolder"> NCETCA - National Conference on Emerging Trends in Computer Applications</b> {"\n"} Registration link: <b className="underline  underline-offset-4 cursor-pointer inter-custom-bolder">Click Here</b></pre>
-					<p className="font-open-sans text-black mt-5 mb-4  leading-7">Pay for conference registration here:<br/><b className="inter-custom-bolder"> NCETCA - National Conference on Emerging Trends in Computer Applications</b> {"\n"} Registration link: <b className="underline  underline-offset-4 cursor-pointer inter-custom-bolder">Click Here</b></p></li>
+					<li><pre className="font-open-sans text-black text-lg mt-5 text-justify leading-8 lg:inline-block hidden">Pay for conference registration here:<b className="inter-custom-bolder"> NCETCA - National Conference on Emerging Trends in Computer Applications</b>  Registration link: <b className="underline  underline-offset-4 cursor-pointer inter-custom-bolder"><Link href={"/registration"}>Click Here</Link></b></pre>
+					<span className="font-open-sans text-black mt-5 mb-4  leading-7 lg:hidden">Pay for conference registration here:<br/><b className="inter-custom-bolder"> NCETCA - National Conference on Emerging Trends in Computer Applications</b> {"\n"} Registration link: <b className="underline  underline-offset-4 cursor-pointer inter-custom-bolder">Click Here</b></span>
+					</li>
 					<li className="lg:mb-0 mb-4">Final camera ready paper is required, even if you do not intend to make any changes to your original submission.</li>
 					<li className="lg:mb-0 mb-4">Before you proceed, carefully read the Author Information page (in the website) to ensure that your submission meets the guidelines.</li>
 					<li className=" lg:mb-0 mb-4">Prepare a copy of your paper in PDF format using our templates</li>
