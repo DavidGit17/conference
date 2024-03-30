@@ -7,7 +7,7 @@ export default function Commitee() {
         COMMITTEE
       </h1>
       <div className="lg:flex justify-between pt-20">
-        <div className="chiefpatron bg-[#E7E7E7] h-fit flex flex-col items-center  lg:w-[49%] w-full lg:py-[3.5rem] py-7 lg:px-0 px-5">
+        <div className="chiefpatron bg-[#E7E7E7] rounded rounded-lg h-fit flex flex-col items-center lg:w-[49%] w-full lg:py-[3.5rem] py-7 lg:px-0 px-5">
           <p className="text-[#A71E25] text-[22px] inter-custom-bolder  ">
             CHIEF <span className="text-black">PATRON</span>
           </p>
@@ -28,7 +28,7 @@ export default function Commitee() {
             <span className="open-sans-light"> Vice-President, KLEF</span>
           </p>
         </div>
-        <div className="patron bg-[#E7E7E7] h-fit flex flex-col items-center lg:w-[49%] w-full  lg:py-[3.5rem] py-7 lg:px-0 px-5">
+        <div className="patron bg-[#E7E7E7] rounded rounded-lg h-fit flex flex-col items-center lg:w-[49%] w-full  lg:py-[3.5rem] py-7 lg:px-0 px-5">
           <p className="text-black text-[22px] inter-custom-bolder ">PATRON</p>
           <p className="text-black open-sans-bold pt-5 flex-row   text-center" >
             Dr. K. S. Jagannatha Rao,
@@ -50,7 +50,7 @@ export default function Commitee() {
       </div>
 
       <div className=" xl:lg:md:flex-row lg:flex  flex-col justify-between mt-10">
-        <div className="bg-[#E7E7E7] lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5  ">
+        <div className="bg-[#E7E7E7] rounded rounded-lg lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5  ">
           <p className="text-[#A71E25] inter-custom-bolder text-xl ">
             CONFERENCE <span className="text-black">CHAIR</span>
           </p>
@@ -62,7 +62,7 @@ export default function Commitee() {
           </div>
         </div>
 
-        <div className="bg-[#E7E7E7] lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5">
+        <div className="bg-[#E7E7E7] rounded rounded-lg lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5">
           <p className="text-[#A71E25] inter-custom-bolder  text-xl">
             CONFERENCE <span className="text-black">CHAIR</span>
           </p>
@@ -74,7 +74,7 @@ export default function Commitee() {
           </div>
         </div>
 
-        <div className="bg-[#E7E7E7] lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5 ">
+        <div className="bg-[#E7E7E7] rounded rounded-lg lg:w-[19rem] flex flex-col items-center py-10 lg:px-0 px-5 ">
           <p className="text-[#A71E25] inter-custom-bolder  text-xl">
             CONFERENCE <span className="text-black">CHAIR</span>
           </p>
@@ -87,7 +87,7 @@ export default function Commitee() {
         </div>
       </div>
 
-      <div className="bg-[#E7E7E7] h-fit mt-10 lg:px-10 px-5 py-10 lg:flex flex-col">
+      <div className="bg-[#E7E7E7] rounded rounded-lg h-fit mt-10 lg:px-10 px-5 py-10 lg:flex flex-col">
         <div className="flex justify-center">
           <p className="text-[#A71E25] inter-custom-bolder text-xl pb-5">
             STEERING <span className="text-black">COMMITTEE</span>
@@ -116,7 +116,7 @@ export default function Commitee() {
       </div>
 
       <div className="flex org-tech  lg:flex-row flex-col justify-between py-10">
-        <div className=" flex-col justify-center bg-[#E7E7E7] items-center py-10 px-10">
+        <div className=" flex-col justify-center bg-[#E7E7E7] rounded rounded-lg items-center py-10 px-10">
           <h1 className="text-[#A71E25] inter-custom-bolder text-xl text-center ">
             ORGANIZING <span className="text-black">COMMITTEE</span>
           </h1>
@@ -200,7 +200,7 @@ export default function Commitee() {
           </p>
         </div>
 
-        <div className=" Technical flex flex-col bg-[#E7E7E7] items-center py-10 px-10 ">
+        <div className=" Technical flex flex-col bg-[#E7E7E7] rounded rounded-lg items-center py-10 px-10 ">
           <h1 className="text-[#A71E25] inter-custom-bolder text-xl text-center">
             TECHNICAL PROGRAM <span className="text-black">COMMITTEE</span>
           </h1>
@@ -285,7 +285,7 @@ export default function Commitee() {
         </div>
       </div>
 
-      <div className="website bg-[#E7E7E7] h-fit flex flex-col justify-center items-center text-center py-10 lg:px-0 px-7">
+      <div className="website bg-[#E7E7E7] rounded rounded-lg h-fit flex flex-col justify-center items-center text-center py-10 lg:px-0 px-7">
         <div>
           <h1 className="text-[#A71E25] text-xl inter-custom-bolder pb-5">
             WEBSITE <span className="text-black ">COMMITTEE</span>
