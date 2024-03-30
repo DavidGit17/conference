@@ -81,6 +81,23 @@
   src: url("../public//OpenSans-Regular.ttf") format("truetype");  
 } 
 
+@font-face { 
+  font-family: "cmg-sans-bold"; 
+  src: url("../public//CMGSans-BoldCn.ttf") format("truetype");  
+} 
+
+
+@font-face { 
+  font-family: "cmg-sans-medium"; 
+  src: url("../public//CMGSans-MediumCn.ttf") format("truetype");  
+} 
+
+@font-face { 
+  font-family: "cmg-sans-regular"; 
+  src: url("../public//CMGSans-RegularCn.ttf") format("truetype");  
+} 
+
+
 .open-sans-regular {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;

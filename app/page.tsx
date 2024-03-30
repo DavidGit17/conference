@@ -2,7 +2,7 @@
 
 
 import Image from "next/image";
-import mimage from "../styles/logo.png"
+import mimage from "../styles/cropped-logo.png"
 import bigimage from "../styles/bg-blue.svg"
 import { useEffect, useState } from "react";
 import Head from "next/head";
@@ -31,33 +31,38 @@ export default function Home() {
 
 
 
-								<pre className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] text-sm inter-custom-bolder p-0">1<sup>st</sup> National Conference on  {"\n"}
-									Emerging Trends in Computer Applications {"\n"}
-									<span className="text-[#A71E25]">
+								<pre className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] lg:pl-7 text-sm font-cmg-sans-bold uppercase tracking-widest p-0 lg:inline-block hidden">1st National Conference <span className="font-cmg-sans-medium">on  {"\n"}
+									Emerging Trends in Computer Applications</span> {"\n"}
+									<span className="text-[#A71E25] font-cmg-sans-bold">
 										(NCETCA - 2024)</span></pre>
 
+										<p className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] lg:pl-7 text-sm font-cmg-sans-bold uppercase tracking-widest p-0 lg:hidden inline-block">1st National Conference <span className="font-cmg-sans-medium">on  {"\n"}
+									Emerging Trends in Computer Applications</span> {"\n"}
+									<span className="text-[#A71E25] font-cmg-sans-medium">
+										(NCETCA - 2024)</span></p>
+
 							</div>
-							<div className="h-full lg:w-3/6 flex flex-col justify-center items-center lg:pl-24 pt-10">
+							<div className="h-full lg:w-3/6 flex flex-col justify-center items-center lg:pl-48 pt-10">
 								<Image priority width={360} src={mimage} alt="logo" className="hidden lg:block scale-85" />
 								<Image  onLoad={()=>{setImageLoaded(true) , console.log(imageLoaded)}} onError={()=>{setImageLoaded(false)}} src={bigimage} alt="logo" height={1} className={imageLoaded ? "hidden" : "bg-gray-500 animate-pulse "} />
 							</div>
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">
-							<div className="lg:h-12 lg:w-80 bg-white  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-10 text-xs px-3 py-2">Conference Mode : Hybrid</div>
-							<div className="lg:h-24 h-16 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-evenly">
-								<div className="flex flex-col justify-center items-center ">
+							<div className="lg:h-12 lg:w-80 bg-white  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-cmg-sans-regular">Conference Mode :<span className="ml-2 font-cmg-sans-bold text-[#A71E25]">  Hybrid</span></div>
+							<div className="lg:h-24 h-16 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-evenly px-2">
+								<div className="flex flex-col justify-center items-center font-cmg-sans-regular uppercase tracking-wider text-center">
 									<p className="font-[700] ">Last Date of Registration & </p>
 									<p className="font-[700]">Abstract Submission</p>
-									<p className="font-[700]">5th  April, 2024</p>
+									<p className="font-[700] font-cmg-sans-bold">5th  April, 2024</p>
 								</div>
 
-								<div className="flex flex-col justify-center items-center">
+								<div className="flex flex-col justify-center items-center font-cmg-sans-regular uppercase text-center">
 									<p className="font-[700]">Full Paper Submission</p>
-									<p className="font-[700]">10<sup>th</sup> April 2024</p>
+									<p className="font-[700] font-cmg-sans-bold">10th April 2024</p>
 								</div>
-								<div className="flex flex-col justify-center items-center">
+								<div className="flex flex-col justify-center items-center font-cmg-sans-regular uppercase text-center">
 									<p className="font-[700]">Conference Date</p>
-									<p className="font-[700]">27<sup>th</sup> April 2024</p>
+									<p className="font-[700] font-cmg-sans-bold">27th April 2024</p>
 								</div>
 							</div>
 						</div>

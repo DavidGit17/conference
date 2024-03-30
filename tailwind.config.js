@@ -12,6 +12,9 @@ module.exports = {
     extend: {
       fontFamily :{ 
        "open-sans" : ["open-sans"],
+       "cmg-sans-bold" : ["cmg-sans-bold"],
+       "cmg-sans-medium" : ["cmg-sans-medium"],
+       "cmg-sans-regular" : ["cmg-sans-regular"],
       } ,
     },
   },
