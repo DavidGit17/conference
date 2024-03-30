@@ -27,7 +27,7 @@ export default function Home() {
 					
 					<div className="flex flex-col h-full justify-between">
 						<div className="flex w-full lg:h-60 h-28">
-							<div className="h-full lg:w-3/6 w-full  flex flex-col justify-center lg:items-center lg:pl-0 pl-4 font-inter">
+							<div className="h-full lg:w-3/6 w-full  flex flex-col justify-center lg:items-center lg:pl-8 pl-4 font-inter">
 
 
 
@@ -49,7 +49,7 @@ export default function Home() {
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">	
 							<div className="lg:h-12 lg:w-80 bg-white  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-sans">Conference Mode :<span className="ml-2  text-[#A71E25] font-sans font-black">  Hybrid</span></div>
-							<div className="lg:h-24 h-16 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-evenly px-2">
+							<div className="lg:h-24 h-16 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-between items-center lg:px-2 px-2 ">
 								<div className="flex flex-col justify-center items-center font-sans uppercase tracking-wider text-center">
 									<p className="font-[400] ">Last Date of Registration & </p>
 									<p className="font-[400]">Abstract Submission</p>
