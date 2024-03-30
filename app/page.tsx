@@ -68,7 +68,7 @@ export default function Home() {
 			<div className="w-full h-fit lg:px-80 lg:py-36 py-16 bg-white">
 				<div className="w-full h-fit flex flex-col  items-center">
 					<h1 className="text-[#1A2C37] font-semibold lg:text-3xl leading-6 text-xl ">About University</h1>
-					<p className="open-sans-regular lg:mt-16 text-black lg:text-[22px] lg:leading-10 leading-7text-justify text-lg flex flex-row justify-start scale-90">
+					<p className="open-sans-regular lg:mt-16 text-black lg:text-[22px] lg:leading-10 leading-7 text-justify text-lg flex flex-row justify-start scale-90">
 						KLEF Deemed to be university was established in 1980-81, as KL College of {"\n"} Engineering, which was upgraded to KL College of Engineering Autonomous in {"\n"} 2006 by UGC, and was declared as a Deemed to be University in 2009 by UGC,{"\n"} MHRD Govt.of India. In 2012 as a Deemed to be University the institution was {"\n"} accredited by NAAC with A Grade and later in 2018, was re-accredited by NAAC {"\n"} with A++ grade. In 2019 UGC, MHRD declared this intuition as Category I {"\n"} Institution. The institutes remains indebted to leadership of our late co-founder{"\n"} Er. Koneru Lakshmaiah, and our Founder Er. Koneru Satyanarayana, both of whose {"\n"} vision has helped in creating this abode of learning, which has emerged as one of {"\n"} the elite institutes of the nation.
 					</p>
 
