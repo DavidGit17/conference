@@ -31,14 +31,14 @@ export default function Home() {
 
 
 
-								<pre className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] lg:pl-7 text-sm font-cmg-sans-bold uppercase tracking-widest p-0 lg:inline-block hidden">1st National Conference <span className="font-cmg-sans-medium">on  {"\n"}
+								<pre className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] lg:pl-7 text-sm font-sans font-black uppercase tracking-widest p-0 lg:inline-block hidden">1st National Conference <span className="font-light">on  {"\n"}
 									Emerging Trends in Computer Applications</span> {"\n"}
-									<span className="text-[#A71E25] font-cmg-sans-bold">
+									<span className="text-[#E8000C] font-sans">
 										(NCETCA - 2024)</span></pre>
 
-										<p className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] lg:pl-7 text-sm font-cmg-sans-bold uppercase tracking-widest p-0 lg:hidden inline-block">1st National Conference <span className="font-cmg-sans-medium">on  {"\n"}
-									Emerging Trends in Computer Applications</span> {"\n"}
-									<span className="text-[#A71E25] font-cmg-sans-medium">
+										<p className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] lg:pl-7 text-sm font-sans font-black uppercase tracking-widest p-0 lg:hidden inline-block">1st National Conference <span className="font-light">on  {"\n"}
+									Emerging Trends in Computer Applications</span> <br/>
+									<span className="text-[#E8000C] font-cmg-sans-medium">
 										(NCETCA - 2024)</span></p>
 
 							</div>
@@ -47,22 +47,22 @@ export default function Home() {
 								<Image  onLoad={()=>{setImageLoaded(true) , console.log(imageLoaded)}} onError={()=>{setImageLoaded(false)}} src={bigimage} alt="logo" height={1} className={imageLoaded ? "hidden" : "bg-gray-500 animate-pulse "} />
 							</div>
 						</div>
-						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">
-							<div className="lg:h-12 lg:w-80 bg-white  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-cmg-sans-regular">Conference Mode :<span className="ml-2 font-cmg-sans-bold text-[#A71E25]">  Hybrid</span></div>
+						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">	
+							<div className="lg:h-12 lg:w-80 bg-white  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-sans">Conference Mode :<span className="ml-2  text-[#A71E25] font-sans font-black">  Hybrid</span></div>
 							<div className="lg:h-24 h-16 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-evenly px-2">
-								<div className="flex flex-col justify-center items-center font-cmg-sans-regular uppercase tracking-wider text-center">
-									<p className="font-[700] ">Last Date of Registration & </p>
-									<p className="font-[700]">Abstract Submission</p>
-									<p className="font-[700] font-cmg-sans-bold">5th  April, 2024</p>
+								<div className="flex flex-col justify-center items-center font-sans uppercase tracking-wider text-center">
+									<p className="font-[400] ">Last Date of Registration & </p>
+									<p className="font-[400]">Abstract Submission</p>
+									<p className="font-[700] font-black">5th  April, 2024</p>
 								</div>
 
-								<div className="flex flex-col justify-center items-center font-cmg-sans-regular uppercase text-center">
-									<p className="font-[700]">Full Paper Submission</p>
-									<p className="font-[700] font-cmg-sans-bold">10th April 2024</p>
+								<div className="flex flex-col justify-center items-center font-sans uppercase text-center">
+									<p className="font-[400]">Full Paper Submission</p>
+									<p className="font-[700] font-black">10th April 2024</p>
 								</div>
-								<div className="flex flex-col justify-center items-center font-cmg-sans-regular uppercase text-center">
-									<p className="font-[700]">Conference Date</p>
-									<p className="font-[700] font-cmg-sans-bold">27th April 2024</p>
+								<div className="flex flex-col justify-center items-center font-sans uppercase text-center">
+									<p className="font-[400]">Conference Date</p>
+									<p className="font-[700] font-black">27th April 2024</p>
 								</div>
 							</div>
 						</div>
