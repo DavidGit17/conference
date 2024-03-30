@@ -1,5 +1,3 @@
-import { title } from "@/components/primitives";
-
 export default function Commitee() {
   return (
     <div className="pt-16 pb-16 lg:px-32 px-5 h-fit bg-white">
