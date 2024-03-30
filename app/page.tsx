@@ -19,7 +19,7 @@ export default function Home() {
 		<title>NCETCA</title>
 		
       </Head>
-	  <Image  onLoad={()=>{setImageLoaded(true) , console.log(imageLoaded)}} onError={()=>{setImageLoaded(false)}} src={bigimage} alt="logo" height={1} className={imageLoaded ? "hidden" : "bg-gray-500 animate-pulse "} />
+	  
 			<div className="w-full lg:h-fit bg-white ">
 				
 
@@ -39,6 +39,7 @@ export default function Home() {
 							</div>
 							<div className="h-full lg:w-3/6 flex flex-col justify-center items-center lg:pl-24 pt-10">
 								<Image priority width={360} src={mimage} alt="logo" className="hidden lg:block scale-85" />
+								<Image  onLoad={()=>{setImageLoaded(true) , console.log(imageLoaded)}} onError={()=>{setImageLoaded(false)}} src={bigimage} alt="logo" height={1} className={imageLoaded ? "hidden" : "bg-gray-500 animate-pulse "} />
 							</div>
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">
