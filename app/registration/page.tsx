@@ -25,24 +25,20 @@ export default function Registration() {
 			<ol className="relative border-s border-gray-200 dark:border-gray-700 lg:hidden mt-10">
 				<li className="mb-5 ms-4">
 					<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-					<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">5th April 2024</time>
+					<time className="mb-1 text-sm font-normal leading-none text-gray-800">5th April 2024</time>
 					<h3 className=" mt-2 font-semibold text-gray-900 dark:text-white">Last Date of Registartion and Abstract Submission</h3>
-					<a href="#" className="inline-flex mt-3 items-center px-4 py-2 text-xs ml-0  text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Click Here to Register <svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
-  </svg></a>
-					
 				</li>
 				<li className="mb-5 ms-4">
 					<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-					<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">10th April 2024</time>
+					<time className="mb-1 text-sm font-normal leading-none text-gray-800">10th April 2024</time>
 					<h3 className=" mt-2  font-semibold text-gray-900 dark:text-white">Full Paper Submission</h3>
-					
+
 				</li>
 				<li className="ms-4">
 					<div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-					<time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">27th April 2024</time>
+					<time className="mb-1 text-sm font-normal leading-none text-gray-800">27th April 2024</time>
 					<h3 className=" mt-2  font-semibold text-gray-900 dark:text-white">Conference Date</h3>
-					
+
 				</li>
 			</ol>
 
@@ -52,16 +48,16 @@ export default function Registration() {
 					<Image src={qr} alt="qr code" width={200} height={200} />
 				</div>
 				<div className="w-full h-3/6 flex flex-col justify-around items-center ">
-				<p>Registration Form Link</p>
-				<br/>
-				<p className="lgtext-base text-sm"><Link  className="underline" href={"https://newerp.kluniversity.in/index.php"}>https://newerp.kluniversity.in/index.php</Link></p>
-				<br/>
-				<ul className="list-disc lg:pl-0 pl-8">
-					<li>Do payment using above QR code and take screenshot of your payment</li>
-					<br className="lg:hidden "/>
-					<li>Now, Using above link fill the form and upload the screenshot and submit it</li>
-				</ul>
-				<br/>
+					<p>Registration Form Link</p>
+					<br />
+					<p className="lgtext-base text-sm"><Link className="underline" href={"https://newerp.kluniversity.in/index.php"}>https://newerp.kluniversity.in/index.php</Link></p>
+					<br />
+					<ul className="list-disc lg:pl-0 pl-8">
+						<li>Do payment using above QR code and take screenshot of your payment</li>
+						<br className="lg:hidden " />
+						<li>Now, Using above link fill the form and upload the screenshot and submit it</li>
+					</ul>
+					<br />
 				</div>
 			</div>
 
@@ -84,7 +80,7 @@ export default function Registration() {
 
 				<pre className="font-open-sans text-black lg:block hidden">Refunds or cancellations are not permitted after registration.{"\n"}
 					<span className="font-open-sans font-black">Note:</span> In all the aforementioned cases, no telephonic communications will be considered</pre>
-					<p className="font-open-sans text-black lg:hidden  ">Refunds or cancellations are not permitted after registration.{"\n"}<br/><br/>
+				<p className="font-open-sans text-black lg:hidden  ">Refunds or cancellations are not permitted after registration.{"\n"}<br /><br />
 					<span className="font-open-sans font-black">Note:</span> In all the aforementioned cases, no telephonic communications will be considered</p>
 			</div>
 

@@ -56,8 +56,8 @@ export default function Submission() {
 						<li className="lg:mb-0 mb-4"><pre className=" text-black inter text-justify leading-7 lg:inline-block hidden">Log in using the same username and password you created during your initial submission. You may then edit your submission {"\n"}information (paper title, author list, etc) and/or resubmit your paper.</pre>
 						<p className=" text-black inter  leading-7">Log in using the same username and password you created during your initial submission. You may then edit your submission {"\n"}information (paper title, author list, etc) and/or resubmit your paper.</p></li>
 						<li className="lg:mb-0 mb-4">Do not apply security settings to your PDF file.</li>
-						<li className="lg:mb-0 mb-4"><pre className=" text-black inter text-justify leading-7 lg:inline-block hidden"><b className="inter-custom-bolder capitalize">mandatory: </b> You must pay for conference registration before you will be allowed to upload yourfinal camera {"\n"}ready paper. You will need your registration code in order to proceed.</pre>
-						<p className=" text-black inter leading-7"><b className="inter-custom-bolder capitalize">mandatory: </b> You must pay for conference registration before you will be allowed to upload yourfinal camera {"\n"}ready paper. You will need your registration code in order to proceed.</p></li>
+						<li className="lg:mb-0 mb-4">
+						<p className=" text-black inter leading-7"><b className="inter-custom-bolder capitalize">mandatory: </b> Conference registration payment is mandatory prior to the submission of your final camera-ready paper. You will need your registration code to proceed with the upload.</p></li>
 					</ol>
 					
 				</ol>
