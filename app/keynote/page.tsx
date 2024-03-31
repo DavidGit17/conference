@@ -67,7 +67,7 @@ export default function Keynote() {
               </p>
             </div>
             <div className="mt-6">
-              <p className="font-open-sans text-black lg:text-justify">
+              <p className="font-open-sans text-black lg:text-justify text-center">
                 Served at Different levels in various companies - Director - R&D
                 - Development at E2Open(Present), NGA HR Pvt Limited, Hyderabad,
                 HCL Technologies, Chennai, Dell International Services Pvt. Ltd,
