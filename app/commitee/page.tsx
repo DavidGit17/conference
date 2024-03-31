@@ -68,7 +68,7 @@ export default function Commitee() {
           <div className="flex flex-col items-center pt-6">
             <p className="text-black open-sans-bold ">Dr.G.Krishna Mohan</p>
             <p className="text-black open-sans-regular text-center">
-              Principal, College of Sciences, KLEF
+              HoD, Dept of CSA, KLEF
             </p>
           </div>
         </div>
@@ -94,9 +94,9 @@ export default function Commitee() {
         </div>
         <div className="flex lg:flex-row flex-col justify-between">
           <p className="text-black open-sans-bold text-center lg:mb-0 mb-4">
-            Mr. J A Jevin Assistant <br />
+            Mr. J A Jevin<br />
             <span className="open-sans-regular text-center">
-              Professor, Dept. of CSA, KLEF
+            Assistant Professor, Dept. of CSA, KLEF
             </span>
           </p>
           <p className="text-black open-sans-bold text-center lg:mb-0 mb-4 lg:pl-12">
@@ -121,27 +121,38 @@ export default function Commitee() {
           </h1>
           <div className="text-black text-center lg:px-5 py-10">
             <p className="inter-custom-bolder py-[0.22rem] text-center">
-              Dr. G. Venkateswarlu,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Dr. G. Venkateswarlu,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="inter-custom-bolder py-[0.22rem]">
               Mr. N.Venkata Ramana,
-              <span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="inter-custom-bolder py-[0.22rem]">
               Mr. R.Nagendra Babu,
-              <span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="inter-custom-bolder py-[0.22rem]">
               Dr. Gufran Ahmad,
-              <span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="inter-custom-bolder py-[0.22rem]">
               Mrs. T.Ratna Kumari,
-              <span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
           </div>
@@ -151,19 +162,30 @@ export default function Commitee() {
           <div className="text-black py-10 text-center">
             <p className="inter-custom-bolder py-[0.22rem]">
               Mr. Zulfikar Ali Ansari,
-              <span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="inter-custom-bolder py-[0.22rem]">
-              Mr. Ch. Nagaraju,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Mr. Ch. Nagaraju,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="inter-custom-bolder py-[0.22rem]">
-              Mr. Ch. Phanikanth,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Mr. Ch. Phanikanth,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="inter-custom-bolder py-[0.22rem]">
-              Chandra Pravesh,<span className="font-[400]"> BCA 3nd Year, Dept. of CSA, KLEF
+              Chandra Pravesh,
+              <span className="font-[400]">
+                {" "}
+                BCA 3nd Year, Dept. of CSA, KLEF
               </span>
             </p>
           </div>
@@ -172,11 +194,17 @@ export default function Commitee() {
           </h1>
           <div className="text-black text-center">
             <p className="inter-custom-bolder py-[0.22rem]">
-              Mr. B. Krishna,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Mr. B. Krishna,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="inter-custom-bolder py-[0.22rem]">
-              Mrs. B.Sujatha,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Mrs. B.Sujatha,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
           </div>
@@ -189,55 +217,89 @@ export default function Commitee() {
           </h1>
           <div className="text-black text-center py-10">
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr. K.Kiran Kumar,<span className="font-[400]"> Professor, Dept. of CSA, KLEF</span>
+              Dr. K.Kiran Kumar,
+              <span className="font-[400]"> Professor, Dept. of CSA, KLEF</span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.V.Valli Mayil,<span className="font-[400]"> Professor, Dept. of CSA, KLEF</span>
+              Dr.V.Valli Mayil,
+              <span className="font-[400]"> Professor, Dept. of CSA, KLEF</span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.M.Sheela Rani,<span className="font-[400]"> Professor, Dept. of CSA, KLEF</span>
+              Dr.M.Sheela Rani,
+              <span className="font-[400]"> Professor, Dept. of CSA, KLEF</span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.R.D.Sathiya,<span className="font-[400]"> Professor, Dept. of CSA, KLEF</span>
+              Dr.R.D.Sathiya,
+              <span className="font-[400]"> Professor, Dept. of CSA, KLEF</span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr. B.Mouleswararao,<span className="font-[400]"> Associate Professor, Dept. of CSA, KLEF
+              Dr. B.Mouleswararao,
+              <span className="font-[400]">
+                {" "}
+                Associate Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr. P. Venkata Hari Prasad,<span className="font-[400]"> Associate Professor, Dept. of CSA, KLEF
+              Dr. P. Venkata Hari Prasad,
+              <span className="font-[400]">
+                {" "}
+                Associate Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.K.Himabindu,<span className="font-[400]"> Associate Professor, Dept. of CSA, KLEF
+              Dr.K.Himabindu,
+              <span className="font-[400]">
+                {" "}
+                Associate Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.ACP.Ranjani,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Dr.ACP.Ranjani,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.Ch.madava Rao,<span className="font-[400]"> Associate Professor, Dept. of CSA, KLEF
+              Dr.Ch.madava Rao,
+              <span className="font-[400]">
+                {" "}
+                Associate Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.D.Usha Rani,<span className="font-[400]"> Associate Professor, Dept. of CSA, KLEF
+              Dr.D.Usha Rani,
+              <span className="font-[400]">
+                {" "}
+                Associate Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr. V.S Narayana Tinnaluri,<span className="font-[400]"> Associate Professor, Dept. of CSA, KLEF
+              Dr. V.S Narayana Tinnaluri,
+              <span className="font-[400]">
+                {" "}
+                Associate Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.Jeevan Jala,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Dr.Jeevan Jala,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.Ahmed.Neyaz Khan,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Dr.Ahmed.Neyaz Khan,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
             <p className="py-[0.4rem] inter-custom-bolder">
-              Dr.Ch.Kiran Kumar,<span className="font-[400]"> Assistant Professor, Dept. of CSA, KLEF
+              Dr.Ch.Kiran Kumar,
+              <span className="font-[400]">
+                {" "}
+                Assistant Professor, Dept. of CSA, KLEF
               </span>
             </p>
           </div>
