@@ -48,8 +48,8 @@ export default function Home() {
 							</div>
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">
-							<div className="lg:h-12 lg:w-80 bg-[#D9D9D996]  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-sans ml-7">Conference Mode :<span className="ml-2  text-[#A71E25] font-sans font-black">  Hybrid</span></div>
-							<div className="lg:h-28 h-16 w-full text-white bg-black lg:text-base text-[9px] rounded rounded-2xl flex  justify-between items-center lg:px-16 px-4  ">
+							<div className="lg:h-12 lg:w-80 bg-[#D9D9D996]  rounded-lg flex flex-row text-black items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-sans ml-7">Conference Mode :<span className="ml-2  text-[#A71E25] font-sans font-black">  Hybrid</span></div>
+							<div className="lg:h-28 h-16 w-full text-white bg-black lg:text-base text-[9px] rounded rounded-2xl flex  justify-between items-center lg:px-16 px-4  lg:gap-0 gap-3 ">
 								<div className="flex flex-col justify-center items-center font-sans uppercase tracking-wider text-center font-[6px] ">
 									<p className="font-[400] ">Last Date of Registration & </p>
 									<p className="font-[400]">Abstract Submission</p>
