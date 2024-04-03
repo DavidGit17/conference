@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import mimage from "../styles/cropped-logo.png"
-import bigimage from "../styles/bg-blue.svg"
+import bigimage from "../styles/banner.png"
 import { useEffect, useState } from "react";
 import Head from "next/head";
 
@@ -23,33 +23,33 @@ export default function Home() {
 			<div className="w-full lg:h-fit bg-white ">
 
 
-				<div className={imageLoaded == true ? "bg-[url('./bg-blue.svg')]" : "init"}>
+				<div className={imageLoaded == true ? "bg-[url('./banner.png')] bg-cover bg-[#2D2D2D] " : "init bg-[#2D2D2D]"}>
 
-					<div className="flex flex-col h-full justify-between">
-						<div className="flex w-full lg:h-60 h-28">
-							<div className="h-full lg:w-3/6 w-full  flex flex-col justify-center lg:items-center lg:pl-8 pl-4 font-inter">
+					<div className="flex flex-col h-full justify-between lg:px-20 px-3">
+						<div className="flex w-full lg:h-60 h-28 flex-row justify-between">
+							<div className="h-full lg:w-fit w-full  flex flex-col justify-center lg:items-center font-inter">
 
 
 
-								<pre className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] lg:pl-7 text-sm font-sans font-black uppercase tracking-widest p-0 lg:inline-block hidden">1st National Conference <span className="font-light">on  {"\n"}
+								<pre className="text-white lg:leading-snug leading-6 text-left lg:text-[22px]  text-sm font-cmg-sans-bold uppercase tracking-widest p-0 lg:inline-block hidden">1st National Conference <span className="font-cmg-sans-medium">on  {"\n"}
 									Emerging Trends in Computer Applications</span> {"\n"}
-									<span className="text-[#E8000C] font-sans">
+									<span className="text-[#E8000C] font-cmg-sans-bold">
 										(NCETCA - 2024)</span></pre>
 
-								<p className="text-white lg:leading-snug leading-6 text-left lg:text-[25px] lg:pl-7 text-sm font-sans font-black uppercase tracking-widest p-0 lg:hidden inline-block">1st National Conference <span className="font-light">on  {"\n"}
+								<p className="text-white lg:leading-snug leading-6 text-left lg:text-[25px]  text-sm font-cmg-sans-bold uppercase tracking-widest p-0 lg:hidden inline-block">1st National Conference <span className="font-cmg-sans-medium">on  {"\n"}
 									Emerging Trends in Computer Applications</span> <br />
-									<span className="text-[#E8000C] font-cmg-sans-medium">
+									<span className="text-[#E8000C] font-cmg-sans-bold">
 										(NCETCA - 2024)</span></p>
 
 							</div>
-							<div className="h-full lg:w-3/6 flex flex-col justify-center items-center lg:pl-48 pt-10">
+							<div className="h-full lg:w-fit flex flex-col justify-center items-center  pt-10">
 								<Image priority width={360} src={mimage} alt="logo" className="hidden lg:block scale-85" />
 								<Image onLoad={() => { setImageLoaded(true), console.log(imageLoaded) }} onError={() => { setImageLoaded(false) }} src={bigimage} alt="logo" height={1} width={1} className={imageLoaded ? "hidden" : "bg-gray-500 animate-pulse "} />
 							</div>
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">
-							<div className="lg:h-12 lg:w-80 bg-white  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-sans">Conference Mode :<span className="ml-2  text-[#A71E25] font-sans font-black">  Hybrid</span></div>
-							<div className="lg:h-24 h-16 lg:w-11/12 w-full text-white bg-black lg:text-base text-[9px] flex lg:justify-around justify-between items-center lg:px-2 px-2 ">
+							<div className="lg:h-12 lg:w-80 bg-[#D9D9D996]  rounded-lg flex flex-row text-black justify-center items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-sans ml-7">Conference Mode :<span className="ml-2  text-[#A71E25] font-sans font-black">  Hybrid</span></div>
+							<div className="lg:h-28 h-16 w-full text-white bg-black lg:text-base text-[9px] rounded rounded-2xl flex  justify-between items-center lg:px-16 px-4  ">
 								<div className="flex flex-col justify-center items-center font-sans uppercase tracking-wider text-center font-[6px] ">
 									<p className="font-[400] ">Last Date of Registration & </p>
 									<p className="font-[400]">Abstract Submission</p>
