@@ -1,6 +1,6 @@
 import Image from "next/image";
 import keynote1 from "styles/keynote1.png";
-import keynote2 from "styles/keynote2-1.jpg";
+import keynote2 from "styles/Ft.png";
 export default function Keynote() {
   return (
     <div className="pt-12 pb-16 lg:px-32 px-3 h-fit bg-white">
@@ -52,8 +52,9 @@ export default function Keynote() {
             <Image
               src={keynote2}
               alt="Jagan Mohan Chevvakula"
-              className=" rounded rounded-lg"
+              className=" rounded rounded-xl"
               priority
+              height={266}
             />
           </div>
           <div className="h-fit w-full mt-14 ">
