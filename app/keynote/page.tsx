@@ -67,6 +67,8 @@ export default function Keynote() {
                 Director – R&D - Development at E2Open
               </p>
             </div>
+            <br className="lg:block hidden" />
+            <br className="lg:block hidden" />
             <div className="mt-6">
               <p className="font-open-sans text-black lg:text-justify text-center">
                 Served at Different levels in various companies - Director - R&D
