@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import mimage from "../styles/cropped-logo.png"
-import bigimage from "../styles/banner.png"
+import bigimage from "../styles/Group1.png"
 import { useEffect, useState } from "react";
 import Head from "next/head";
 
@@ -15,7 +15,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<link rel="preload" href="../styles/bg-blue.svg" as="image" />
+
 				<title>NCETCA</title>
 
 			</Head>
@@ -23,7 +23,7 @@ export default function Home() {
 			<div className="w-full lg:h-fit bg-white ">
 
 
-				<div className={imageLoaded == true ? "bg-[url('./banner.png')] bg-cover bg-[#2D2D2D] " : "init bg-[#2D2D2D]"}>
+				<div className={"bg-[url('./Group.jpeg')] bg-cover w-full bg-[#2D2D2D] " }>
 
 					<div className="flex flex-col h-full justify-between lg:px-20 px-3">
 						<div className="flex w-full lg:h-60 h-28 flex-row justify-between">
@@ -48,20 +48,20 @@ export default function Home() {
 							</div>
 						</div>
 						<div className=" flex flex-col w-full lg:h-64 h-48 justify-evenly items-center lg:pt-0 pt-8 lg:gap-0 gap-3 ">
-							<div className="lg:h-12 lg:w-80 bg-[#D9D9D996]  rounded-lg flex flex-row text-black items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-sans ml-7">Conference Mode :<span className="ml-2  text-[#A71E25] font-sans font-black">  Hybrid</span></div>
+							<div className="lg:h-12 lg:w-80 bg-[#D9D9D996]  rounded-lg flex flex-row text-black items-center font-semibold lg:text-lg lg:px-4 text-xs px-3 py-2 uppercase font-sans lg:ml-20 ">Conference Mode :<span className="ml-2  text-[#A71E25] font-cmg-sans-bold">  Hybrid</span></div>
 							<div className="lg:h-28 h-16 w-full text-white bg-black lg:text-base text-[9px] rounded rounded-2xl flex  justify-between items-center lg:px-16 px-4  lg:gap-0 gap-3 ">
-								<div className="flex flex-col justify-center items-center font-sans uppercase tracking-wider text-center font-[6px] ">
-									<p className="font-[400] ">Last Date of Registration & </p>
-									<p className="font-[400]">Abstract Submission</p>
+								<div className="flex flex-col justify-center items-center font-cmg-sans-medium uppercase tracking-wider text-center font-[6px] ">
+									<p className="font-[300] ">Last Date of Registration & </p>
+									<p className="font-[300]">Abstract Submission</p>
 									<p className="font-[700] font-black">5th  April, 2024</p>
 								</div>
 
-								<div className="flex flex-col justify-center items-center font-sans uppercase text-center font-[6px]">
-									<p className="font-[400]">Full Paper Submission</p>
+								<div className="flex flex-col justify-center items-center font-cmg-sans-medium uppercase text-center font-[6px]">
+									<p className="font-[300]">Full Paper Submission</p>
 									<p className="font-[700] font-black">10th April 2024</p>
 								</div>
-								<div className="flex flex-col justify-center items-center font-sans uppercase text-center font-[6px]">
-									<p className="font-[400]">Conference Date</p>
+								<div className="flex flex-col justify-center items-center font-cmg-sans-medium uppercase text-center font-[6px]">
+									<p className="font-[300]">Conference Date</p>
 									<p className="font-[700] font-black">27th April 2024</p>
 								</div>
 							</div>
@@ -90,7 +90,6 @@ export default function Home() {
 					</p>
 				</div>
 			</div>
-
 
 		</>
 	);
