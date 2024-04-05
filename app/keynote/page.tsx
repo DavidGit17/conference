@@ -1,6 +1,6 @@
 import Image from "next/image";
 import keynote1 from "styles/keynote1.png";
-import keynote2 from "styles/Ft.png";
+import keynote2 from "styles/keynote22.png";
 export default function Keynote() {
   return (
     <div className="pt-12 pb-16 lg:px-32 px-3 h-fit bg-white">
@@ -10,12 +10,14 @@ export default function Keynote() {
 
       <div className="lg:md:w-full h-fit  lg:mt-28 mt-10 lg:md:flex  justify-between">
         <div className="lg:md:w-[40%] h-full p-3">
-          <div className=" h-2/6 w-full ">
+          <div className=" h-2/6 w-full flex flex-row justify-center  ">
             <Image
               src={keynote1}
               alt="P suresh Varma"
               className=" rounded rounded-lg"
               priority
+              height={266}
+              width={456}
             />
           </div>
           <div className="h-4/6 w-full lg:mt-14">
@@ -55,6 +57,7 @@ export default function Keynote() {
               className=" rounded rounded-xl"
               priority
               height={266}
+              width={456}
             />
           </div>
           <div className="h-fit w-full mt-14 ">
